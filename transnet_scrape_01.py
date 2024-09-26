@@ -34,7 +34,7 @@ try:
     # Set the URL of the page to scrape
     url = 'https://www.transnetportterminals.net/Ports/Pages/Terminal%20Updates.aspx'
 
-    os.chdir(Path(r'C:\Users\Tarl\Desktop\transnet_scrape'))
+    os.chdir(Path(r'C:\Users\Tarl\Desktop\scraper_transnet\downloads'))
 
     # Get current date and time to create a unique folder
     now = datetime.now()
